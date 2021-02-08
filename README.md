@@ -15,7 +15,5 @@ The script to run this test (assuming the test itself is saved under `cypresstes
 cd cypresstest
 cypress run > output.txt
 inline-assets mochawesome.html selfcontained.html
-new_octopusartifact "$PWD/output.txt" "output.txt"
-new_octopusartifact "$PWD/mochawesome.html" "mochawesome.html"
 new_octopusartifact "$PWD/selfcontained.html" "selfcontained.html"
 ```
