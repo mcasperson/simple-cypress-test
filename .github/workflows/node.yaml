@@ -21,7 +21,7 @@ jobs:
         
     - name: Create ZIP file
       run: |
-        zip -r cypresstest.zip . -x .git/\* .github/\*
+        zip -r cypresstest.zip . -x .git/\* .github/\* .gitignore
         
     - name: Create Release
       id: create_release
