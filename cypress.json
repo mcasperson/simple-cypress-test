@@ -1,11 +1,8 @@
 {
   "baseUrl": "https://google.com",
-  "reporter": "mochawesome",
-  "reporterOptions": {
-    "charts": true,
-    "overwrite": false,
-    "html": true,
-    "json": false,
-    "reportDir": "."
-  }
+  "reporter": "junit",
+   "reporterOptions": {
+      "mochaFile": "cypress/results/results.xml",
+      "toConsole": true
+   }
 }
